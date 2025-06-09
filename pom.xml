@@ -50,6 +50,12 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
+    <groupId>org.postgresql</groupId>
+    <artifactId>postgresql</artifactId>
+    <version>42.6.0</version> <!-- ou la dernière -->
+</dependency>
+
+		<dependency>
     <groupId>mysql</groupId>
     <artifactId>mysql-connector-java</artifactId>
     <version>8.0.33</version> <!-- Ensure the version matches your setup -->
